@@ -46,6 +46,9 @@ section#loguin {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease;
 }
 
 section#loguin>div#imagem {
@@ -57,10 +60,10 @@ section#loguin>div#imagem {
     height: 200px;
 }
 
-section#loguin > div#formulario {
+section#loguin>div#formulario {
 
     display: block;
     padding: 10px;
- 
+
 
 }
